@@ -170,17 +170,11 @@ class MainActivity5 : AppCompatActivity() {
             dialog.datePicker.maxDate = System.currentTimeMillis() //현재 날짜 다음 값을 선택하지 못하게 함
             dialog.show() //다이얼로그 show
 
-
-
-
-
         }
-
 
         //xml에서 이벤트 연결하기
         fun handleClick() {
             Toast.makeText(this, "제목을 클릭했습니다", Toast.LENGTH_SHORT).show()
         }
-
     }
 }
